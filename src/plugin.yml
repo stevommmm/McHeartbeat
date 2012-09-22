@@ -1,3 +1,10 @@
 name: McHeartbeat
 main: com.c45y.McHeartbeat.McHeartbeat
-version: 0.1
+version: 0.3
+permissions:
+    McHeartbeat.lag:
+        description: Show lag stats
+        default: op
+commands:
+    lag:
+        description: Make lag
